@@ -1,0 +1,22 @@
+h3{
+    background: linear-gradient(to right, rgb(151, 212, 151) ,rgb(186, 11, 11));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 55px;
+    text-align: center;
+}
+.card-head{
+     font-size: 30px;
+     text-align: center;
+}
+.card-body{
+    margin-left: 40%;
+    margin-top: 3%;
+    font-size: 20px;
+}
+.submit{
+    font-size: 20px;
+    margin-top: 15%;
+    margin-left: 80%;
+    padding: 4%;
+}

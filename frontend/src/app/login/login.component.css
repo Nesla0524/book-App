@@ -1,0 +1,52 @@
+.log-head{
+background-image: url(L-img/Wallpapers-books.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+color: aliceblue;
+}
+
+form{
+  padding-top: 10%;
+  padding-bottom: 10%;
+
+}
+.log{
+    background-color: rgba(0, 0, 0, 0.573);
+    width: 25%;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-bottom: 4%;
+    margin-left: 35%;
+   
+}
+h3{
+    font-size: 30px;
+    margin-left: 32%;
+}
+.lab{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    width: 84%;
+    padding: 1%;
+    } 
+.lab:hover{
+   border-style: groove;
+}
+
+.log-lab{
+    font-size: 20px;
+}
+.login{
+    font-size: 20px;
+    margin-top: 2%;
+   margin-left: 35%;
+   color: rgb(0, 0, 0);
+   background-color: rgb(106, 104, 104);
+   padding: 5px;
+}
+.login:hover{
+    background-color: aliceblue;
+}
+h5{
+    margin-left: 25%;
+}

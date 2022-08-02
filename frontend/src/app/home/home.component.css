@@ -1,0 +1,40 @@
+.head{
+    background-image: url(image/book-hh.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+ padding-bottom: 27%;
+   padding-top: 4%;
+}
+.ti{
+    font-size: 50px;
+   padding-left: 5%;
+}
+.navbar-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-top: 7%;
+   
+    
+}
+.nav-link{
+    
+    text-decoration: none;
+    color: rgb(182, 195, 213); 
+    background-color: rgba(178, 165, 165, 0.322); 
+    font-size: 28px; 
+    width: 15%;
+    padding-top: 5px;
+   font-weight: bold;
+    padding-bottom: 10px;
+    margin: 7px; 
+    border-style: ridge;
+    border-color: rgb(20, 19, 17);
+}
+
+svg{
+    width: 15%;
+   padding-left: 5%;
+   
+}

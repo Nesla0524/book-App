@@ -1,0 +1,19 @@
+.navbar-brand{
+    text-decoration: none;
+    font-size: 80px;
+   margin-left: 30%;
+   background: linear-gradient(to right, rgb(151, 212, 151),rgb(185, 62, 62));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ 
+}
+.link{
+    text-decoration: none;
+    margin-left: 4%;
+   color: aqua;
+   font-size: larger;
+}
+.head-body{
+    background-color: black;
+    padding: 1%;
+}

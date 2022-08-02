@@ -1,0 +1,24 @@
+<div class="log-head">
+   <form (ngSubmit)="onSubmit" >
+          <div class="log">
+            <h3>LOGIN</h3>
+           
+        <label class="log-lab" for="name">User name</label><br>
+        <input class="lab" type="text" name="uname" [(ngModel)]="user.uname"/> <br>
+        
+       
+        <label class="log-lab" >Password     </label><br>
+        <input class="lab" type="password" name="password" [(ngModel)]="user.password"/>
+        <br>
+        <button  class="login" routerLink="/books" routerLinkActive="active">LOGIN</button>
+        <h5>Create an account 
+            <a href="/signup">Sign up</a> 
+            </h5>
+    
+    </div>
+    
+        
+     
+ </form>
+
+</div> 

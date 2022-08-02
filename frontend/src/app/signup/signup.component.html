@@ -1,0 +1,28 @@
+
+<div class="log-head">
+   
+
+    <form (ngSubmit)="onSubmit" >
+        <h3 class="log">SIGNUP</h3>
+       <label>First Name</label><br>
+       <input type="text" name="fname" id="fname"><br>
+
+       <label>Second Name</label><br>
+       <input type="text" name="sname" id="sname"><br>
+
+       <label>Email Id</label><br>
+       <input type="email" name="mail" id="mail"><br>
+
+       <label>Password</label><br>
+       <input type="password" name="psw" id="psw"><br>
+
+       <label>Confirm Password</label><br>
+       <input type="password" name="cpsw" id="cpsw"><br>
+
+       <button routerLink="/books" routerLinkActive="active">SIGNUP</button>
+       <h5>Have already account 
+        <a href="/login">login here</a> 
+        </h5>
+    </form>
+  
+</div>

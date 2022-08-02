@@ -1,0 +1,12 @@
+.cont{
+    font-size: 50px;
+    background: linear-gradient(to right, rgb(166, 230, 166),rgb(209, 42, 42));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    margin-left: 35%;
+}
+
+th{
+    font-size: large;
+    margin-left: 50%;
+}
