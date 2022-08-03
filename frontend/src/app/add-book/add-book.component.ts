@@ -12,9 +12,10 @@ export class AddBookComponent implements OnInit {
   bookItem={
     bookId :'',
     bookName :'',
+    authorName:'',
     bookCode :'',
     realeseDate :'',
-    description :'',
+    type:'',
     price :''
 
 

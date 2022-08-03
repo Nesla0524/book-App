@@ -1,5 +1,5 @@
 const express = require('express');
-const booksData = require('./src/model/booksdata');
+const BooksData = require('./src/model/booksdata');
 const User = require('./src/model/user');
 const cors = require('cors');
 var bodyparser=require('body-parser');
@@ -7,10 +7,18 @@ const jwt = require('jsonwebtoken')
 var app = new express();
 app.use(cors());
 app.use(bodyparser.json());
-username='admin';
-password='1234';
 
+app.get('/bookss',function(req,res){
+      res.header("Access-Control-Allow-Origin","*")
+      res.header("Access-Control-Allow-Methods: GET,POST,PATCH,PUT,DELETE")
+      BookData.find()
+                  .then(function(bookss){
+                    res.send(bookss);
+                  });
+   
+    })  ;
 
+   
 function verifyToken(req, res, next) {
     if(!req.headers.authorization) {
       return res.status(401).send('Unauthorized request')

@@ -11,9 +11,10 @@ export class BookssComponent implements OnInit {
   books =[{
     bookId :'',
     bookName :'',
+    authorName :'',
     bookCode :'',
     realeseDate :'',
-    description :'',
+    type :'',
     price :'',
   }]
 
@@ -22,7 +23,7 @@ export class BookssComponent implements OnInit {
    }
 
   ngOnInit(): void {
-    this.bookService.getBooks().subscribe((data)=>{
+    this.bookService.getBookss().subscribe((data)=>{
         this.books=JSON.parse(JSON.stringify(data));
         console.log(this.books)
     })

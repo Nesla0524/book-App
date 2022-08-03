@@ -5,14 +5,15 @@ const Schema = mongoose.Schema;
 var NewBookSchema = new Schema({
     bookId : Number,
     bookName : String,
+    authorName : String,
     bookCode : String,
     releaseDate : String,
-    description : String,
-    price : Number,
-    starRating :Number,
+    type : String,
+    price : Number
+    // imageUrl:String
     
 });
 
-var booksData = mongoose.model('books', NewBookSchema);    //UserData is the model and NewBookData is the schema
+var bookdata = mongoose.model('bookss', NewBookSchema);    //UserData is the model and NewBookData is the schema
 
-module.exports = booksData;
+module.exports = bookdata;

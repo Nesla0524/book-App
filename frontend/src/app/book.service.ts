@@ -8,7 +8,7 @@ export class BookService {
 
   constructor(private http: HttpClient) { }
 
-  getBooks(){
+  getBookss(){
     return this.http.get("http://localhost:3000/bookss");
   }
   newBook(item : any){
